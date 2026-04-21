@@ -7,15 +7,15 @@ public class TowerRunResult {
 
     private final int floorsCleared;
     private final int heroesSurviving;
-    private final boolean reachedTop;
+    private final boolean towerCleared;
 
-    public TowerRunResult(int floorsCleared, int heroesSurviving, boolean reachedTop) {
+    public TowerRunResult(int floorsCleared, int heroesSurviving, boolean towerCleared) {
         this.floorsCleared = floorsCleared;
         this.heroesSurviving = heroesSurviving;
-        this.reachedTop = reachedTop;
+        this.towerCleared = towerCleared;
     }
 
     public int getFloorsCleared()     { return floorsCleared; }
     public int getHeroesSurviving()   { return heroesSurviving; }
-    public boolean isReachedTop()     { return reachedTop; }
+    public boolean isTowerCleared()   { return towerCleared; }
 }
